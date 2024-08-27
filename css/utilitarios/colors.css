@@ -1,0 +1,38 @@
+:root {
+  --col-0: #000000;
+  --col-1: #1a1a1a;
+  --col-2: #a1a1a1;
+  --col-3: #ffffff;
+  --col-4: #eeeef5;
+  --col-5: #ef2940;
+  --col-6: #833ab8;
+  --col-7: #111111; /* BORDER */
+}
+
+.col-0 {
+  color: var(--col-0);
+}
+.col-1 {
+  color: var(--col-1);
+}
+.col-2 {
+  color: var(--col-2);
+}
+.col-3 {
+  color: var(--col-3);
+}
+.col-4 {
+  color: var(--col-4);
+}
+.col-5 {
+  color: var(--col-5);
+}
+.col-6 {
+  color: var(--col-6);
+}
+.col-7 {
+  color: var(--col-7);
+}
+.col-7 {
+  color: var(--col-7);
+}

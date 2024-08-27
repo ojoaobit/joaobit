@@ -1,0 +1,15 @@
+.footer-bg {
+  width: 100vw;
+  padding: 30px 10px;
+  background-color: var(--col-0);
+  text-align: center;
+  border-top: 1px solid var(--col-1);
+}
+.redes-sociais {
+  padding-bottom: 10px;
+  gap: 20px;
+  filter: invert();
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

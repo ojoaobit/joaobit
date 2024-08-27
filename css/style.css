@@ -1,0 +1,7 @@
+@import url("./global/global.css");
+@import url("./global/header.css");
+@import url("./global/footer.css");
+@import url("./utilitarios/colors.css");
+@import url("./utilitarios/typography.css");
+@import url("./home/intro.css");
+@import url("./home/skills.css");
