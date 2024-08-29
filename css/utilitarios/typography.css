@@ -6,6 +6,9 @@
 .sm-regular2 {
   font: 400 1.25rem/1.35 "Space Mono", monospace;
 }
+.sm-regular3 {
+  font: 400 1rem/1.1 "Space Mono", monospace;
+}
 
 .sm-bold {
   font: 700 1.35rem/1.35 "Space Mono", monospace;

@@ -37,11 +37,19 @@
   color: var(--col-3);
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .header-bg {
     padding: 10px 20px;
   }
-  .menu {
-    display: none;
+  .header-container {
+    display: grid;
+  }
+  .logo {
+    margin: 0 auto;
+  }
+  .menu a {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
   }
 }

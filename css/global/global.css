@@ -8,6 +8,7 @@
 }
 html {
   background-color: var(--col-0);
+  box-sizing: border-box;
 }
 .banner-main {
   width: 100%;

@@ -31,3 +31,13 @@
   background-color: var(--col-6);
   width: 40px;
 }
+
+@media screen and (max-width: 600px) {
+  .sobre-bg {
+    padding: 100px 20px;
+  }
+  .sobre-container img {
+    width: 100%;
+    height: 300px;
+  }
+}
