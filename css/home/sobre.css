@@ -1,0 +1,33 @@
+.sobre-bg {
+  width: 100%;
+  padding: 100px 0;
+  height: auto;
+}
+.sobre-container {
+  max-width: 1080px;
+  margin: 0 auto;
+  border: 1px solid var(--col-1);
+}
+.sobre-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-bottom: 1px solid var(--col-1);
+}
+/* CADA CARD */
+.sobre-card {
+  width: 100%;
+  padding: 20px;
+}
+.sobre-title::before {
+  content: "";
+  background-color: var(--col-5);
+  width: 20px;
+  height: 5px;
+  position: absolute;
+  transition: 0.3s ease-in-out;
+}
+.sobre-title:hover::before {
+  background-color: var(--col-6);
+  width: 40px;
+}
