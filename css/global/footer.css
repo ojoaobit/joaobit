@@ -1,7 +1,6 @@
 .footer-bg {
-  width: 100vw;
-  padding: 30px 10px;
-  background-color: var(--col-0);
+  width: 100%;
+  padding: 20px 10px;
   text-align: center;
   border-top: 1px solid var(--col-1);
 }
