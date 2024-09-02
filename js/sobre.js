@@ -29,9 +29,10 @@ function addContentToSobreBg() {
 
     // Cria e adiciona o parágrafo sobre a experiência
     const p1 = document.createElement("p");
-    p1.className = "sm-regular2 col-4";
+    p1.className = "sm-regular2 first col-4";
+    p1.style.marginBottom = "20px";
     p1.innerHTML =
-      'Um dia pensei: "É difícil fazer um site?" e assim surgiu minha curiosidade mas so fui estudar de fato em 2023. Antes disso fui mecânico aeronáutico, T.I e motion design, até fazer meu primeiro trabalho / projeto Frontend com um amigo: <strong>animabook.</strong>';
+      'Um dia pensei: "É difícil fazer um site?" e assim surgiu minha curiosidade mas so fui estudar de fato em 2023. Antes disso fui mecânico aeronáutico, T.I e motion design, até fazer meu primeiro trabalho / projeto Frontend com um amigo: <strong>animabook.</strong> <br>';
 
     // Cria e adiciona o título "FORMAÇÕES"
     const h2 = document.createElement("h2");

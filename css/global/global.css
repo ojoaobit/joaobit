@@ -17,13 +17,11 @@ html {
 .banner-main > img {
   width: 100%;
 }
-
 .mensagem-main {
   width: 100%;
   height: auto;
   margin: 60px auto;
 }
-
 .mensagem {
   max-width: 1080px;
   margin: 0 auto;
@@ -33,7 +31,8 @@ html {
   padding: 40px 0;
 }
 
-@media (max-width: 600px) {
+/* BANNER DAS TECLAS NO INDEX */
+@media (max-width: 768px) {
   .banner-main > img {
     width: 100%;
     height: 300px;

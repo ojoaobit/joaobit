@@ -1,12 +1,12 @@
 :root {
-  --col-0: #000000;
-  --col-1: #242424;
-  --col-2: #a1a1a1;
-  --col-3: #ffffff;
-  --col-4: #eeeef5;
-  --col-5: #ef2940;
-  --col-6: #833ab8;
-  --col-7: #111111; /* BORDER */
+  --col-0: #000000; /* BG */
+  --col-1: #242424; /* BORDER */
+  --col-2: #a1a1a1; /* DESCRICAO */
+  --col-3: #ffffff; /* TITULO - TEXTO MAIN */
+  --col-4: #eeeef5; /* DESCRICAO 2 */
+  --col-5: #ef2940; /* PRIMARIA */
+  --col-6: #833ab8; /* PRIMARIA 2 */
+  --col-7: #111111; /* BORDER -BG */
 }
 
 .col-0 {
