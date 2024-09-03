@@ -1,16 +1,36 @@
 <!-- header.html -->
 <header class="header-bg">
-  <div class="header-container">
-    <a href="index.html" class="logo">
-      <p class="sm-bold col-3">Joaobit_</p>
-    </a>
-    <div class="header-conteudo">
-      <ul class="menu col-2 sm-regular">
-        <li>
-          <a href="sobre.html">Sobre mim</a>
+
+  <nav class="nav-bar">
+    <div class="logo">
+      <a href="index.html" class="sm-bold col-3">Joaobit_</a>
+    </div>
+    <div class="nav-list">
+      <ul class="sm-regular col-2">
+        <li class="nav-item">
+          <a href="sobre.html" class="nav-link"> Sobre mim</a>
         </li>
-        <li><a href="projetos.html">Projetos</a></li>
+        <li class="nav-item">
+          <a href="projetos.html" class="nav-link">Projetos</a>
+        </li>
       </ul>
     </div>
-  </div>
+
+    <!-- ICON MENU -->
+    <div class="mobile-menu-icon">
+      <button onclick="menuShow()"><img class="icon" src="assets/img/svgs/menu.svg" alt="menu mobile"></button>
+    </div> <!-- FIM ICON MENU -->
+  </nav>
+
+  <div class="mobile-menu">
+    <ul class="sm-regular col-2">
+      <li class="nav-item">
+        <a href="sobre.html" class="nav-link">Sobre mim</a>
+      </li>
+      <li class="nav-item">
+        <a href="projetos.html" class="nav-link">Projetos</a>
+      </li>
+    </ul>
+  </div> <!-- FIM MOBILE MENU -->
+
 </header>

@@ -23,8 +23,9 @@
 /* AREA DA IMAGEM DO CARD */
 .projeto-img {
   width: 100%;
-  max-height: 400px;
+  max-height: 350px;
   border: 1px solid var(--col-1);
+  background-color: var(--col-3);
   border-radius: 8px 8px 0px 0px;
   overflow: hidden;
 }
@@ -78,9 +79,5 @@
 @media screen and (max-width: 768px) {
   .projetos-conteudo {
     grid-template-columns: 1fr;
-  }
-  /* CARD DA IMAGEM */
-  .projeto-img {
-    max-height: 350px;
   }
 }

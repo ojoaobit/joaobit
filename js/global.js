@@ -19,3 +19,15 @@ let links = document.querySelectorAll(".link");
 links.forEach(function (link) {
   link.setAttribute("target", "_blank");
 });
+
+// MENU MOBILE
+function menuShow() {
+  let menuMobile = document.querySelector(".mobile-menu");
+  if (menuMobile.classList.contains("open")) {
+    menuMobile.classList.remove("open");
+    document.querySelector(".icon").src = "/assets/img/svgs/menu.svg";
+  } else {
+    menuMobile.classList.add("open");
+    document.querySelector(".icon").src = "/assets/img/svgs/close.svg";
+  }
+}
