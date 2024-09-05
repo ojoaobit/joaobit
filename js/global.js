@@ -25,9 +25,9 @@ function menuShow() {
   let menuMobile = document.querySelector(".mobile-menu");
   if (menuMobile.classList.contains("open")) {
     menuMobile.classList.remove("open");
-    document.querySelector(".icon").src = "/assets/img/svgs/menu.svg";
+    document.querySelector(".icon").src = "./assets/img/svgs/menu2.svg";
   } else {
     menuMobile.classList.add("open");
-    document.querySelector(".icon").src = "/assets/img/svgs/close.svg";
+    document.querySelector(".icon").src = "./assets/img/svgs/close2.svg";
   }
 }

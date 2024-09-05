@@ -41,6 +41,7 @@
 }
 .mobile-menu-icon {
   display: none;
+  filter: invert();
 }
 .mobile-menu {
   display: none;
