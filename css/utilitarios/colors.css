@@ -5,8 +5,9 @@
   --col-3: #ffffff; /* TITULO - TEXTO MAIN */
   --col-4: #eeeef5; /* DESCRICAO 2 */
   --col-5: #ef2940; /* PRIMARIA */
-  --col-6: #833ab8; /* PRIMARIA 2 */
+  --col-6: #f8cf75; /* PRIMARIA 2 */
   --col-7: #111111; /* BORDER -BG */
+  --col-8: #10252a;
 }
 
 .col-0 {
@@ -35,4 +36,7 @@
 }
 .col-7 {
   color: var(--col-7);
+}
+.col-8 {
+  color: var(--col-8);
 }

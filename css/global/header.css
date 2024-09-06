@@ -16,6 +16,12 @@
 .logo {
   margin-right: auto;
 }
+.logo a {
+  transition: 0.3s ease-in-out;
+}
+.logo a:hover {
+  color: var(--col-6);
+}
 
 .nav-bar {
   margin: 0 auto;
@@ -36,7 +42,7 @@
   padding: 10px;
 }
 .nav-item:hover {
-  background-color: var(--col-1);
+  background-color: var(--col-8);
   color: var(--col-3);
 }
 .mobile-menu-icon {

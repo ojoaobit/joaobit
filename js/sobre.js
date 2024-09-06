@@ -11,8 +11,8 @@ function addContentToSobreBg() {
 
     // Cria o elemento img
     const img = document.createElement("img");
-    img.src = "./assets/img/BANNER-SOBRE1.png";
-    img.alt = "banner imagem";
+    img.src = "./assets/img/BANNER-SOBRE.png";
+    img.alt = "banner sobre imagem";
 
     // Cria o elemento div com a classe "sobre-conteudo"
     const conteudo = document.createElement("div");
@@ -25,19 +25,19 @@ function addContentToSobreBg() {
     // Cria e adiciona o título "SOBRE MIM"
     const h1 = document.createElement("h1");
     h1.className = "poppins-sb2 col-3 sobre-title";
-    h1.textContent = "SOBRE MIM";
+    h1.textContent = "* SOBRE MIM";
 
     // Cria e adiciona o parágrafo sobre a experiência
     const p1 = document.createElement("p");
     p1.className = "sm-regular2 first col-4";
-    p1.style.marginBottom = "20px";
+    p1.style.marginBottom = "30px";
     p1.innerHTML =
-      'Um dia pensei: "É difícil fazer um site?" e assim surgiu minha curiosidade mas so fui estudar de fato em 2023. Antes disso fui mecânico aeronáutico, T.I e motion design, até fazer meu primeiro trabalho / projeto Frontend com um amigo: <strong>animabook.</strong> <br>';
+      "Olá, meu nome é João Victor Batista, sou um desenvolvedor <span class='col-5'>Frontend</span> e <span class='col-5'>Designer</span>. Minha especialidade em design é o <span class='col-6'>retrofuturismo</span>, <span class='col-6'>minimalismo</span> e <span class='col-6'>dadaísmo</span>. Comecei a estudar programação em 2023 por curiosidade e antes de programar fui mecânico aeronáutico, T.I e motion design, até fazer meu primeiro trabalho / projeto Frontend com um amigo: <strong>animabook.</strong>";
 
     // Cria e adiciona o título "FORMAÇÕES"
     const h2 = document.createElement("h2");
     h2.className = "poppins-sb2 col-3 sobre-title";
-    h2.textContent = "FORMAÇÕES";
+    h2.textContent = "* FORMAÇÕES";
 
     // Cria e adiciona os parágrafos sobre as formações
     const formations = [

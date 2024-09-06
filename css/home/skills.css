@@ -2,7 +2,7 @@
   width: 100%;
   height: auto;
   background-color: var(--col-0);
-  padding-bottom: 50px;
+  padding: 100px 0;
 }
 .skills-container {
   max-width: 1080px;

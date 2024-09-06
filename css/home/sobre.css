@@ -6,30 +6,17 @@
 .sobre-container {
   max-width: 1080px;
   margin: 0 auto;
-  border: 1px solid var(--col-1);
 }
 .sobre-container img {
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-bottom: 1px solid var(--col-1);
+  border: 1px solid var(--col-1);
 }
 /* CADA CARD */
 .sobre-card {
   width: 100%;
-  padding: 20px;
-}
-.sobre-card .sobre-title::before {
-  content: "";
-  background-color: var(--col-5);
-  width: 20px;
-  height: 4px;
-  position: absolute;
-  transition: 0.3s ease-in-out;
-}
-.sobre-title:hover::before {
-  background-color: var(--col-6);
-  width: 40px;
+  padding: 20px 0;
 }
 
 @media screen and (max-width: 1024px) {
